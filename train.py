@@ -29,9 +29,9 @@ def train_model(model, train_loader, val_loader, device, num_epochs=20, learning
     
     # Loss function and optimizer
     # criterion = nn.MSELoss()
-    # criterion = nn.MSELoss()  # Mean Squared Error Loss
+    criterion = nn.MSELoss()  # Mean Squared Error Loss
     # l1_loss = nn.L1Loss()  # L1 Loss
-    criterion = nn.SmoothL1Loss()
+    # smooth_l1_loss = nn.SmoothL1Loss()
 
 
 

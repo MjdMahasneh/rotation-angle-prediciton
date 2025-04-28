@@ -29,10 +29,9 @@ def main():
                         help='Range of random rotations (min,max)')
     parser.add_argument('--seed', type=int, default=42, help='Random seed')
     parser.add_argument('--save_dir', type=str, default='./checkpoints', help='Directory to save models')
-    parser.add_argument('--visualize', action='store_true', help='Visualize predictions', default=True)
-    parser.add_argument('--eval_only', action='store_true', help='Only run evaluation', default=True)
-    parser.add_argument('--model_path', type=str, default='checkpoints/best_model.pth', help='Path to a pretrained model')
-    # parser.add_argument('--model_path', type=str, default=None, help='Path to a pretrained model')
+    parser.add_argument('--visualize', action='store_true', help='Visualize predictions', default=False)
+    parser.add_argument('--eval_only', action='store_true', help='Only run evaluation', default=False)
+    parser.add_argument('--model_path', type=str, default=None, help='Path to a pretrained model')
 
 
     args = parser.parse_args()
