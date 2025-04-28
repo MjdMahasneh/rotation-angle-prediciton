@@ -1,9 +1,7 @@
 /checkpoints/
 /checkpoints - Copy/
 /dataset/
-.png
-.jpg
-.jpeg
+
 
 # Python-related
 __pycache__/

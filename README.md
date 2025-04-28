@@ -16,6 +16,9 @@ rotated images and their corresponding rotation angles.
 - [ ] optimize the model.
 
 
+![Figure 1](samples/Figure_1.png)
+![Figure 3](samples/Figure_3.png)
+
 
 
 ## Project Structure
